@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "violet-sans";
+    src: url(fonts/violet-sans/fonts/WOFF/VioletSans-Regular.woff)
+}
+html {
+    background-color: #0d0d0d;
+}
+body {
+    font-family: "violet-sans", "Inconsolata", monospace;
+    font-size: 100%;
+    text-align: justify;
+    line-height: 140%;
+    margin: auto;
+    max-width: 900px;
+    padding: 10px 30px 20px 30px;
+}
+header {
+    color: #51F24B;
+}
+nav {
+    text-align: right;
+    color: #D9D2C5;
+}
+hr {
+    border: 0px;
+    height: 1px;
+    background-color: #51F24B;
+    border-color: #51F24B;
+}
+main {
+    color: #D9D2C5;
+}
+h3 {
+    color: #51F24B;
+}
+a {
+    color: #51F24B;
+    text-decoration: none;
+}
+a:hover{
+    color: #1D591B;
+}
+::selection {
+    color: #2D8C2A;
+    background-color: none;
+}
