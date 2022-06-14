@@ -19,32 +19,49 @@ body {
     padding: 10px 30px 20px 30px;
 }
 header {
-    color: #51F24B;
+    color: #f2f2f2;
 }
 nav {
     text-align: right;
-    color: #D9D2C5;
+    color: #f2f2f2;
 }
 hr {
     border: 0px;
     height: 1px;
-    background-color: #51F24B;
-    border-color: #51F24B;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
 }
 main {
-    color: #D9D2C5;
+    color: #f2f2f2;
 }
 h3 {
-    color: #51F24B;
+    color: #f2f2f2;
 }
 a {
-    color: #51F24B;
+    color: #0d0d0d;
+    background-color: #a6a6a6;
     text-decoration: none;
 }
 a:hover{
-    color: #1D591B;
+    color: #f2f2f2;
+    background-color: #737373;
 }
 ::selection {
-    color: #2D8C2A;
+    color: #737373;
     background-color: none;
+}
+img {
+    border: 1px solid #a6a6a6; */
+    /* border-radius: 6.25%; */
+    /* box-shadow: 0 4px 8px 0 #737373, 0 6px 20px 0 #a6a6a6; */
+}
+.pillar {
+    float: left;
+    width: 25%;
+    padding: 0px 0px 0px 0px;
+}
+.sequence::after {
+    content: "";
+    clear: both;
+    display: table;
 }
