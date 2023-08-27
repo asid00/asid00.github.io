@@ -6,45 +6,108 @@
     font-family: "violet-sans";
     src: url(fonts/violet-sans/fonts/WOFF/VioletSans-Regular.woff)
 }
+@font-face {
+    font-family: "sf-mono";
+    src: url(fonts/sf-mono/SFMonoRegular.woff)
+}
+@font-face {
+    font-family: "ACROTSRG";
+    src: url(fonts/ACROTSRG/ACROTSRG.TTF);
+}
+@font-face {
+    font-family: "clubbed_to_life";
+    src: url(fonts/clubbed_to_life/Clubbed\ to\ Life.otf);
+}
+@font-face {
+    font-family: "ArcadeFuture";
+    src: url(fonts/ArcadeFuture/Arcade\ Future\ DEMO.otf);
+}
+@font-face {
+    font-family: "ia-writer-duospace";
+    src: url(fonts/ia-writer-duospace/iAWriterDuospace-Regular.otf);
+}
+@font-face {
+    font-family: "hack";
+    src: url(fonts/hack/Hack-Regular.ttf);
+}
+@font-face {
+    font-family: "PROSTY";
+    src: url(fonts/PROSTY/PROSTYExtendedBlackItalic.ttf);
+}
+@font-face {
+    font-family: "Dutch";
+    src: url(fonts/Dutch/Dutch.ttf);
+}
+@font-face {
+    font-family: "Aestetico";
+    src: url(fonts/Aestetico/aestetico-fsp.otf);
+}
+@font-face {
+    font-family: "Impact";
+    src: url(fonts/Impact-Font/impact.ttf);
+}
+@font-face {
+    font-family: "CTBold";
+    src: url(fonts/CTBold/CTBold/CTBold.ttf);
+}
 html {
-    background-color: #0d0d0d;
+    background-color: #000000;
 }
 body {
-    font-family: "violet-sans", "Inconsolata", monospace;
-    font-size: 100%;
+    font-family: "violet-sans";
+    font-size: 80%;
     text-align: justify;
     line-height: 140%;
+    letter-spacing: 0px;
     margin: auto;
     max-width: 900px;
     padding: 10px 30px 20px 30px;
 }
 header {
-    color: #51F24B;
+    font-family: "PROSTY";
+    color: #f2f2f2;
 }
 nav {
+    font-family: "CTBold";
+    font-size: 140%;
     text-align: right;
-    color: #D9D2C5;
+    color: #f2f2f2;
 }
 hr {
     border: 0px;
     height: 1px;
-    background-color: #51F24B;
-    border-color: #51F24B;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
 }
 main {
-    color: #D9D2C5;
+    color: #f2f2f2;
 }
 h3 {
-    color: #51F24B;
+    color: #f2f2f2;
 }
 a {
-    color: #51F24B;
+    color: #f20505;
     text-decoration: none;
 }
 a:hover{
-    color: #1D591B;
+    color: #f2f2f2;
 }
 ::selection {
-    color: #2D8C2A;
+    color: #737373;
     background-color: none;
+}
+img {
+    border: 1px solid #a6a6a6;
+    /* border-radius: 6.25%; */
+    /* box-shadow: 0 4px 8px 0 #737373, 0 6px 20px 0 #a6a6a6; */
+}
+.pillar {
+    float: left;
+    width: 25%;
+    padding: 0px 0px 0px 0px;
+}
+.sequence::after {
+    content: "";
+    clear: both;
+    display: table;
 }

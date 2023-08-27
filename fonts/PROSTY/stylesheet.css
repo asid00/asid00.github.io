@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYBoldItalic.eot');
+    src: local('Prosty Bold Italic'), local('PROSTYBoldItalic'),
+        url('PROSTYBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYBoldItalic.woff2') format('woff2'),
+        url('PROSTYBoldItalic.woff') format('woff'),
+        url('PROSTYBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYBlack.eot');
+    src: local('Prosty Black'), local('PROSTYBlack'),
+        url('PROSTYBlack.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYBlack.woff2') format('woff2'),
+        url('PROSTYBlack.woff') format('woff'),
+        url('PROSTYBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtended.eot');
+    src: local('Prosty Extended'), local('PROSTYExtended'),
+        url('PROSTYExtended.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtended.woff2') format('woff2'),
+        url('PROSTYExtended.woff') format('woff'),
+        url('PROSTYExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedBold.eot');
+    src: local('Prosty Extended Bold'), local('PROSTYExtendedBold'),
+        url('PROSTYExtendedBold.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedBold.woff2') format('woff2'),
+        url('PROSTYExtendedBold.woff') format('woff'),
+        url('PROSTYExtendedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedLightItalic.eot');
+    src: local('Prosty Extended Light Italic'), local('PROSTYExtendedLightItalic'),
+        url('PROSTYExtendedLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedLightItalic.woff2') format('woff2'),
+        url('PROSTYExtendedLightItalic.woff') format('woff'),
+        url('PROSTYExtendedLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedBlackItalic.eot');
+    src: local('Prosty Extended Black Italic'), local('PROSTYExtendedBlackItalic'),
+        url('PROSTYExtendedBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedBlackItalic.woff2') format('woff2'),
+        url('PROSTYExtendedBlackItalic.woff') format('woff'),
+        url('PROSTYExtendedBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedItalic.eot');
+    src: local('Prosty Extended Italic'), local('PROSTYExtendedItalic'),
+        url('PROSTYExtendedItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedItalic.woff2') format('woff2'),
+        url('PROSTYExtendedItalic.woff') format('woff'),
+        url('PROSTYExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedBoldItalic.eot');
+    src: local('Prosty Extended Bold Italic'), local('PROSTYExtendedBoldItalic'),
+        url('PROSTYExtendedBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedBoldItalic.woff2') format('woff2'),
+        url('PROSTYExtendedBoldItalic.woff') format('woff'),
+        url('PROSTYExtendedBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedLight.eot');
+    src: local('Prosty Extended Light'), local('PROSTYExtendedLight'),
+        url('PROSTYExtendedLight.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedLight.woff2') format('woff2'),
+        url('PROSTYExtendedLight.woff') format('woff'),
+        url('PROSTYExtendedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYBlackItalic.eot');
+    src: local('Prosty Black Italic'), local('PROSTYBlackItalic'),
+        url('PROSTYBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYBlackItalic.woff2') format('woff2'),
+        url('PROSTYBlackItalic.woff') format('woff'),
+        url('PROSTYBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Extended';
+    src: url('PROSTYExtendedBlack.eot');
+    src: local('Prosty Extended Black'), local('PROSTYExtendedBlack'),
+        url('PROSTYExtendedBlack.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYExtendedBlack.woff2') format('woff2'),
+        url('PROSTYExtendedBlack.woff') format('woff'),
+        url('PROSTYExtendedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYItalic.eot');
+    src: local('Prosty Italic'), local('PROSTYItalic'),
+        url('PROSTYItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYItalic.woff2') format('woff2'),
+        url('PROSTYItalic.woff') format('woff'),
+        url('PROSTYItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYBold.eot');
+    src: local('Prosty Bold'), local('PROSTYBold'),
+        url('PROSTYBold.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYBold.woff2') format('woff2'),
+        url('PROSTYBold.woff') format('woff'),
+        url('PROSTYBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideLightItalic.eot');
+    src: local('Prosty Wide Light Italic'), local('PROSTYWideLightItalic'),
+        url('PROSTYWideLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideLightItalic.woff2') format('woff2'),
+        url('PROSTYWideLightItalic.woff') format('woff'),
+        url('PROSTYWideLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideBlack.eot');
+    src: local('Prosty Wide Black'), local('PROSTYWideBlack'),
+        url('PROSTYWideBlack.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideBlack.woff2') format('woff2'),
+        url('PROSTYWideBlack.woff') format('woff'),
+        url('PROSTYWideBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYLight.eot');
+    src: local('Prosty Light'), local('PROSTYLight'),
+        url('PROSTYLight.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYLight.woff2') format('woff2'),
+        url('PROSTYLight.woff') format('woff'),
+        url('PROSTYLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideBold.eot');
+    src: local('Prosty Wide Bold'), local('PROSTYWideBold'),
+        url('PROSTYWideBold.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideBold.woff2') format('woff2'),
+        url('PROSTYWideBold.woff') format('woff'),
+        url('PROSTYWideBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideItalic.eot');
+    src: local('Prosty Wide Italic'), local('PROSTYWideItalic'),
+        url('PROSTYWideItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideItalic.woff2') format('woff2'),
+        url('PROSTYWideItalic.woff') format('woff'),
+        url('PROSTYWideItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideLight.eot');
+    src: local('Prosty Wide Light'), local('PROSTYWideLight'),
+        url('PROSTYWideLight.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideLight.woff2') format('woff2'),
+        url('PROSTYWideLight.woff') format('woff'),
+        url('PROSTYWideLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTYLightItalic.eot');
+    src: local('Prosty Light Italic'), local('PROSTYLightItalic'),
+        url('PROSTYLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYLightItalic.woff2') format('woff2'),
+        url('PROSTYLightItalic.woff') format('woff'),
+        url('PROSTYLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWide.eot');
+    src: local('Prosty Wide'), local('PROSTYWide'),
+        url('PROSTYWide.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWide.woff2') format('woff2'),
+        url('PROSTYWide.woff') format('woff'),
+        url('PROSTYWide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideBlackItalic.eot');
+    src: local('Prosty Wide Black Italic'), local('PROSTYWideBlackItalic'),
+        url('PROSTYWideBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideBlackItalic.woff2') format('woff2'),
+        url('PROSTYWideBlackItalic.woff') format('woff'),
+        url('PROSTYWideBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty';
+    src: url('PROSTY.eot');
+    src: local('Prosty'), local('PROSTY'),
+        url('PROSTY.eot?#iefix') format('embedded-opentype'),
+        url('PROSTY.woff2') format('woff2'),
+        url('PROSTY.woff') format('woff'),
+        url('PROSTY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prosty Wide';
+    src: url('PROSTYWideBoldItalic.eot');
+    src: local('Prosty Wide Bold Italic'), local('PROSTYWideBoldItalic'),
+        url('PROSTYWideBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PROSTYWideBoldItalic.woff2') format('woff2'),
+        url('PROSTYWideBoldItalic.woff') format('woff'),
+        url('PROSTYWideBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
