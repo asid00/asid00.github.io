@@ -111,3 +111,39 @@ img {
     clear: both;
     display: table;
 }
+
+.quote {
+    font-family: "violet-sans";
+    font-size: 60%;
+    text-align: right;
+}
+#wrapper{
+    width:100px;
+    text-wrap: nowrap;
+
+}
+#wrapperBig{
+width: 100px;
+    text-wrap: nowrap;
+
+
+
+   
+
+}
+
+#wrapperBig2{
+    max-width: 60%;
+    height: auto;
+    display: flex;
+   
+
+   
+
+}
+.alpha{
+
+display: grid;
+
+
+}
